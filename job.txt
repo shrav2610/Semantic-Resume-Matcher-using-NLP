@@ -1,0 +1,2 @@
+Looking for a Data Scientist with experience in Python, Machine Learning, NLP, and SQL.
+Responsibilities include building models, analyzing data, and deploying ML solutions.
