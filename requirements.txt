@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 streamlit
 sentence-transformers
 scikit-learn
 pdfminer.six
 spacy
-=======
-streamlit
-sentence-transformers
-scikit-learn
-pdfminer.six
-spacy
->>>>>>> 02572dc4207c60c45eac41d52f36227373f10187
