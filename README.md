@@ -53,7 +53,7 @@ It combines **semantic similarity (Sentence-BERT)** with **skill-based matching*
 
 ### Input
 
-![Input]("Input.png")
+![Input](Input.png)
 
 ### Results
 
@@ -73,7 +73,7 @@ It combines **semantic similarity (Sentence-BERT)** with **skill-based matching*
 
 A labeled dataset was created to evaluate model performance.
 
-* Accuracy: XX%
+* Accuracy: 57.69%
 * Confusion Matrix included in notebook
 
 See: `evaluation.ipynb`
