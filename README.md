@@ -76,7 +76,7 @@ A labeled dataset was created to evaluate model performance.
 * Accuracy: XX%
 * Confusion Matrix included in notebook
 
-See: `notebooks/evaluation.ipynb`
+See: `evaluation.ipynb`
 
 ---
 
