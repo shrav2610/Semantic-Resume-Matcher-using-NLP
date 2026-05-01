@@ -1,17 +1,13 @@
-<<<<<<< HEAD
 import spacy
+from spacy.matcher import PhraseMatcher
 
+# Safe loading for Streamlit Cloud
 try:
     nlp = spacy.load("en_core_web_sm")
 except:
     from spacy.cli import download
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
-=======
-import spacy
-from spacy.matcher import PhraseMatcher
-
-nlp = spacy.load("en_core_web_sm")
 
 SKILL_LIST = [
     "Python", "SQL", "Machine Learning", "Deep Learning",
@@ -23,7 +19,6 @@ matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
 patterns = [nlp.make_doc(skill.lower()) for skill in SKILL_LIST]
 matcher.add("SKILLS", patterns)
 
-
 def extract_skills(text):
     doc = nlp(text)
     matches = matcher(doc)
@@ -34,10 +29,7 @@ def extract_skills(text):
 
     return skills
 
-
 def compare_skills(resume_skills, jd_skills):
     matched = resume_skills & jd_skills
     missing = jd_skills - resume_skills
-
     return matched, missing
->>>>>>> 02572dc4207c60c45eac41d52f36227373f10187
