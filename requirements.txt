@@ -4,5 +4,5 @@ scikit-learn
 pdfminer.six
 spacy
 git add .
-git commit -m "Fix: add spaCy model for deployment"
+git commit -m "Fix: spaCy model runtime loading"
 git push
