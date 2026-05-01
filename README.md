@@ -53,19 +53,19 @@ It combines **semantic similarity (Sentence-BERT)** with **skill-based matching*
 
 ### Input
 
-![Input]("Results\Input.png")
+![Input]("Input.png")
 
 ### Results
 
-![Score](Results\score.png)
+![Score](score.png)
 
 ### Skill Analysis
 
-![Skills](Results\skills.png)
+![Skills](skills.png)
 
 ### Suggestions
 
-![Suggestions](Results\suggestions.png)
+![Suggestions](suggestions.png)
 
 ---
 
