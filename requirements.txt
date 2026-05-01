@@ -3,6 +3,3 @@ sentence-transformers
 scikit-learn
 pdfminer.six
 spacy
-git add .
-git commit -m "Fix: spaCy model runtime loading"
-git push
