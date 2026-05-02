@@ -91,21 +91,26 @@ TF-IDF relies on exact word overlap. SBERT captures semantic meaning — a resum
 
 ## Project Structure
 Semantic-Resume-Matcher-using-NLP/
-├── main.py                  # Streamlit app
-├── matcher.py               # SBERT similarity computation
-├── parser.py                # PDF text extraction
-├── skills.py                # spaCy skill extraction + gap analysis
-├── requirements.txt
-|── evaluation.ipynb     
-│── confusion_matrix.png
-│── evaluation_plot.png
-├── Input.png
-├── score.png
-├── skills.png
-├── suggestions.png
+├── app.py                # Streamlit web application
+├── main.py               # CLI version of the project
+├── matcher.py            # Semantic similarity logic (SBERT)
+├── parser.py             # Resume & job description parsing
+├── skills.py             # Skill extraction & comparison
+├── requirements.txt      # Dependencies
+│
+├── notebooks/
+│   └── evaluation.ipynb  # Model evaluation (accuracy, confusion matrix)
+│
+├── Results/              # Screenshots and output visuals
+│   ├── Input.png
+│   ├── score.png
+│   ├── skills.png
+│   ├── suggestions.png
+│   ├── confusion_matrix.png
+│   └── evaluation_plot.png
 └── README.md
----
 
+```
 ## Run Locally
 
 ```bash
