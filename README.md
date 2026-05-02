@@ -96,10 +96,9 @@ Semantic-Resume-Matcher-using-NLP/
 ├── parser.py                # PDF text extraction
 ├── skills.py                # spaCy skill extraction + gap analysis
 ├── requirements.txt
-├── notebooks/
-│   ├── evaluation.ipynb     # Evaluation with metrics + plots
-│   ├── confusion_matrix.png
-│   └── evaluation_plot.png
+|── evaluation.ipynb     
+│── confusion_matrix.png
+│── evaluation_plot.png
 ├── Input.png
 ├── score.png
 ├── skills.png
