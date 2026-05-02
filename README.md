@@ -27,7 +27,7 @@ Evaluated on 22 manually labeled resume-job pairs:
 **Threshold:** 0.4 — chosen based on score distribution analysis.  
 Matching pairs cluster above 0.4 (mean: 0.699) while non-matching pairs fall below 0.4 (mean: 0.191), validating the threshold choice.
 
-![Confusion Matrix](notebooks/confusion_matrix.png)
+![Confusion Matrix](notebooks\confusion_matrix.png)
 ![Score Distribution](notebooks/evaluation_plot.png)
 
 ---
