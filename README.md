@@ -76,16 +76,16 @@ TF-IDF relies on exact word overlap. SBERT captures semantic meaning — a resum
 ## App Screenshots
 
 ### Input
-![Input](Input.png)
+![Input](Results/Input.png)
 
 ### Match Score
-![Score](score.png)
+![Score](Results/score.png)
 
 ### Skill Analysis
-![Skills](skills.png)
+![Skills](Results/skills.png)
 
 ### Suggestions
-![Suggestions](suggestions.png)
+![Suggestions](Results/suggestions.png)
 
 ---
 
